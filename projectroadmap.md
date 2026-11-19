@@ -9,13 +9,14 @@
 - [x] Become the team Maintainer
 - [x] Connect the team to the repository
 - [x] Finish and commit README.md
-- [ ] Find and review a similar Python project
-- [ ] Attempt to run the existing project's code
-- [ ] Document what worked, what didn't, and what I learned
-- [ ] Create and commit projectroadmap.md
-- [ ] Complete the Sprint 1 Review and Log
+- [x] Find and review a similar Python project
+- [x] Attempt to run the existing project's code
+- [x] Document what worked, what didn't, and what I learned
+- [x] Create and commit projectroadmap.md
+- [x] Complete the Sprint 1 Review and Log
 
 ## Sprint 2: Building the Basics
+**est timeline** Next two weeks 
 
 - [ ] Create the main Python file for NextUp
 - [ ] Make a basic menu for navigating the program
@@ -42,14 +43,16 @@
 https://github.com/alterpendragon/siege-system
 
 What I learned:
-(To be completed after reviewing the code.)
+
+After looking through Siege System, I got a better idea of how a game backlog tracker could work using Python. It has a fairly simplistic interface which I would like to incorporate into NextUp, at least for the earlier versions. One major difference is that Siege System uses an external API to retrieve game information, while I plan on letting users manually enter their games instead.
 
 How I attempted to run it:
-(To be completed after testing.)
+
+I downloaded Siege System from GitHub then opened using VSC. After installing the required packages, I ran main.py through the terminal. The program started successfully, and I was able to navigate to the main menu, which included options for viewing, filtering, adding, deleting, and updating games.
 
 Problems I encountered:
-(To be completed after testing.)
 
+The main issue I encountered was when I tried adding a game to the backlog. Every time I entered a game title, the program displayed an "Error fetching game data" message. After looking into it, I found that the program wanted a RAWG API key to retrieve game information, which I hadn't configured. Since I don't plan on using APIs for NextUp, I decided not to spend additional time setting one up. Instead, I'll focus on building a system where users can manually enter and manage their own games.
 ### GameTracker
 https://github.com/Inderjit01/GameTracker
 
