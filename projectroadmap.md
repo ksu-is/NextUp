@@ -16,17 +16,21 @@
 - [x] Complete the Sprint 1 Review and Log
 
 ## Sprint 2: Building the Basics
-**est timeline** Next two weeks 
+**est timeline** Nov 30th, 2026 
 
-- [ ] Create the main Python file for NextUp
-- [ ] Make a basic menu for navigating the program
-- [ ] Create a function to add games to the library
-- [ ] Allow users to enter a game's title, genre, and platform
-- [ ] Add game statuses (Not Started, Playing, Completed, Dropped)
-- [ ] Create a function to view the game library
-- [ ] Create a function to remove games
-- [ ] Figure out how to save and load game information
-- [ ] Test the basic features and fix any errors
+- [x] Create the main Python file for NextUp
+- [x] Install PyQt5 and successfully launch the application
+- [ ] Create a graphical navigation sidebar
+- [ ] Design the game library interface
+- [ ] Create an Add Game window
+- [ ] Allow users to manually enter a game's title, genre, and platform
+- [ ] Implement game statuses (Not Started, Playing, Completed, Dropped)
+- [ ] Allow users to update game information
+- [ ] Create a function to remove games from the library
+- [ ] Implement a SQLite database to save and load games
+- [ ] Test all basic functionality and fix errors
+- [ ] Complete at least six meaningful GitHub commits
+- [ ] Complete the Sprint 2 Review and Log
 
 ## Future Features
 
