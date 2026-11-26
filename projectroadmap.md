@@ -20,7 +20,7 @@
 
 - [x] Create the main Python file for NextUp
 - [x] Install PyQt5 and successfully launch the application
-- [ ] Create a graphical navigation sidebar
+- [x] Create a graphical navigation sidebar
 - [ ] Design the game library interface
 - [ ] Create an Add Game window
 - [ ] Allow users to manually enter a game's title, genre, and platform
